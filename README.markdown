@@ -1,6 +1,6 @@
 # Transcompilation Graph
 
-!(http://vilcans.github.com/transcompilation/ "Transcompilation graph")
+![Programming languages, tools and platforms](http://vilcans.github.com/transcompilation/graph.svg "Transcompilation graph")
 
 There are four main "binary" targets for developing software today:
 

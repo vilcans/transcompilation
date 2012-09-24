@@ -1,5 +1,7 @@
 # Transcompilation Graph
 
+!(http://vilcans.github.com/transcompilation/ "Transcompilation graph")
+
 There are four main "binary" targets for developing software today:
 
   1. Machine code - traditionally developed using C or C++.
@@ -21,3 +23,14 @@ There are compilers that can convert code written
 in one language into another one.
 This little project tries to create a visualization of
 the ways code can be compiled into other forms.
+
+[See the graph page](http://vilcans.github.com/transcompilation/)
+
+## How can I help?
+
+Fork, modify and request a pull!
+Or just let me know about a tool that converts between two languages/runtimes.
+I'm trying to keep it realistic, so the graph should only contain
+tools that are mature enough to be actually used
+and programming languages that more than a handful of people
+know.

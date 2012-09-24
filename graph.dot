@@ -1,4 +1,4 @@
-digraph Languages {
+digraph Transcompilation {
     edge [fontsize=10];
     node [fontsize=12];
 

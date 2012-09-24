@@ -11,4 +11,16 @@ digraph Languages {
     "C++" -> "JavaScript" [label="Emscripten"]
     "C++" -> "Java bytecode" [label="Cibyl"]
     "Objective-C" -> "Machine code" [label="GCC/clang"]
+    "CoffeeScript" -> "JavaScript"
+    "Dart" -> "JavaScript"
+    "Haxe" -> "JavaScript"
+    "Haxe" -> "C++"
+    "Haxe" -> "Java"
+    "Haxe" -> "C#"
+    "C#" -> "CLR"
+
+    "Java bytecode" [shape="box"]
+    "Machine code" [shape="box"]
+    "JavaScript" [shape="box"]
+    "CLR" [shape="box"]
 }

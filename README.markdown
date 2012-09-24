@@ -1,3 +1,5 @@
+# Transcompilation Graph
+
 There are four main "binary" targets for developing software today:
 
   1. Machine code - traditionally developed using C or C++.
@@ -8,7 +10,7 @@ There are four main "binary" targets for developing software today:
 
   4. JavaScript - traditionally written by hand.
 
-Of these, only machine code runs directly on the devices processor.
+Of these, only machine code runs directly on the device's processor.
 The other targets need some kind of virtual machine.
 
 Unfortunately there is no programming language that can be used for developing for all these targets.

@@ -1,5 +1,4 @@
 digraph Languages {
-    graph [dpi = 100];
     edge [fontsize=10];
     node [fontsize=12];
 
@@ -18,6 +17,7 @@ digraph Languages {
     "Haxe" -> "Java"
     "Haxe" -> "C#"
     "C#" -> "CLR"
+    "C++" -> "CLR"
 
     "Java bytecode" [shape="box"]
     "Machine code" [shape="box"]

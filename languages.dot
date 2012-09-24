@@ -2,7 +2,8 @@ digraph Languages {
     edge [fontsize=10];
     node [fontsize=12];
 
-    "Java" -> "Java bytecode" [label="javac"]
+    "Java" -> "Java bytecode"
+    "Scala" -> "Java bytecode"
     "Java" -> "Machine code" [label="GCJ"]
     "Java" -> "Objective-C" [label="j2objc"]
     "Java" -> "JavaScript" [label="GWT"]

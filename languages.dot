@@ -1,0 +1,14 @@
+digraph Languages {
+    graph [dpi = 100];
+    edge [fontsize=10];
+    node [fontsize=12];
+
+    "Java" -> "Java bytecode" [label="javac"]
+    "Java" -> "Machine code" [label="GCJ"]
+    "Java" -> "Objective-C" [label="j2objc"]
+    "Java" -> "JavaScript" [label="GWT"]
+    "C++" -> "Machine code" [label="GCC/Clang"]
+    "C++" -> "JavaScript" [label="Emscripten"]
+    "C++" -> "Java bytecode" [label="Cibyl"]
+    "Objective-C" -> "Machine code" [label="GCC/clang"]
+}

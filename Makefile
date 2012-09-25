@@ -11,3 +11,5 @@
 %.pdf: %.dot
 	dot -Tpdf -o$@ $<
 
+site: graph.svg
+	./make-site

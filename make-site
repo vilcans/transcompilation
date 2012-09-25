@@ -1,0 +1,13 @@
+#!/bin/bash -e
+
+git branch gh-pages origin/gh-pages || true
+
+dir=$(mktemp -d)
+echo $dir
+git clone --branch=gh-pages . $dir
+
+cp graph.svg $dir
+
+cd $dir
+git commit graph.svg
+git push

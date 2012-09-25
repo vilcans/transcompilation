@@ -19,6 +19,7 @@ digraph Transcompilation {
     "Haxe" -> "C#"
     "C#" -> "CLR"
     "C++" -> "CLR"
+    "C#" -> "JavaScript" [label="Script#"]
 
     "Java bytecode" [shape="box"]
     "Machine code" [shape="box"]

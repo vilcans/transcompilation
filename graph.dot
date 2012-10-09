@@ -21,6 +21,17 @@ digraph Transcompilation {
     "C#" -> "Machine code" [label="LLVM/Mono"]
     "C++" -> "CLR"
     "C#" -> "JavaScript" [label="Script#"]
+    "CLR" -> "JavaScript" [label="JSIL"]
+
+    // XMLVM
+    "CLR" -> "XMLVM"
+    "Java bytecode" -> "XMLVM"
+    "XMLVM" -> "CLR"
+    "XMLVM" -> "Java bytecode"
+    "XMLVM" -> "Objective C"
+    "XMLVM" -> "C++"
+    "XMLVM" -> "JavaScript"
+    // JSIL and XMLVM from http://brendaneich.github.com/Strange-Loop-2012/#/44
 
     "Java bytecode" [shape="box"]
     "Machine code" [shape="box"]

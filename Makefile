@@ -1,3 +1,4 @@
+all: graph.svg
 
 %.png: %.dot
 	dot -Tpng -o$@ $<
